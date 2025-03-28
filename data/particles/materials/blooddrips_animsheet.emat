@@ -1,0 +1,5 @@
+Particle {
+ AlbedoMap "ZenModShared/data/textures/blood.edds" 
+ TileU 3
+ TileV 3
+}

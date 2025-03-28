@@ -1,0 +1,45 @@
+EffectDef {
+ MinFPS 1
+ Emitors {
+  EmitorDef maindrop {
+   ShapeType Ellipse
+   ShapeSize 0.8 0.5 0
+   ConeAngle 0 0 0
+   MaxNum 800
+   BirthRate 4
+   Offset 0 0.03 0
+   Angles 360 90 360
+   LocalTransform 0
+   Material "ZenModShared/data/particles/materials/blooddrips_animsheet.emat"
+   SizeMultiplier 0.2
+   SizeRND 0.3
+   RandomRotDir 1
+   RotMultiplier 0
+   StretchMultiplier 0
+   StreakFullUV 0
+   VelAngle 0
+   RandomAngle 0
+   Sort 0
+   BillboardingType None
+   Velocity 0
+   AnimOnce 1
+   LifetimeByAnim 0
+   RandomFrame 1
+   LifeTime 1500
+   Color {
+    0 1 0.0696 0 1 1 0.0633 0
+   }
+   Alpha {
+    0 1 0.87402 1 1 0
+   }
+   EffectTime 1
+   Repeat 1
+   AlphaMast {
+    0 1 1 1
+   }
+   RotationSpeedMast {
+    0 1 1 1
+   }
+  }
+ }
+}
